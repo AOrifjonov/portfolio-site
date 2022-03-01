@@ -61,6 +61,13 @@ export default {
           photo: "https://i.ibb.co/hFVtJbb/progressbar.png",
           link: "https://gradient-bar.netlify.app/",
         },
+        {
+          title: "My shop",
+          text: "You can buy many things remotely through this site I have developed this program in the React of JavaScript",
+          code: "https://github.com/AOrifjonov/react-redux-my-shop",
+          photo: "https://i.ibb.co/n0FxkKQ/image-2022-03-01-22-56-25.png",
+          link: "https://u-myshop.netlify.app/",
+        },
       ],
     };
   },
