@@ -1,10 +1,6 @@
 <template>
   <div class="home">
-    <div v-if="welcome" class="text-center welcome">
-      <h1>Welcome to my personal web-site</h1>
-    </div>
-
-    <div v-if="homemenu" class="main-home container">
+    <div class="main-home container">
       <div class="row flex-column-reverse flex-md-row text-center text-md-start home-surround">
         <div class="col-12 col-md p-2 border-top border-success">
           <div class="p-2">
@@ -53,25 +49,7 @@ export default {
   data() {
     return {
       welcome: Boolean,
-      homemenu: false,
     };
-  },
-
-  methods: {
-    giveWelcome() {
-      setTimeout(() => {
-        setTimeout(() => {
-          this.welcome = false;
-          setTimeout(() => {
-            this.homemenu = true;
-          }, 0);
-        }, 4500);
-      }, 100);
-    },
-  },
-
-  created() {
-    this.giveWelcome();
   },
 };
 </script>

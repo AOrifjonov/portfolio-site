@@ -34,6 +34,20 @@ export default {
     return {
       portfolio: [
         {
+          title: "Toys collection",
+          text: "This program shows the picture and price of the toys. I have developed this program in the React framwork of JavaScript",
+          code: "https://github.com/AOrifjonov/react-shop-card-app",
+          photo: "https://i.ibb.co/k5BWWgs/card.png",
+          link: "https://react-card-shop.netlify.app/",
+        },
+        {
+          title: "Food shop",
+          text: "This project will help you prepare meals. There is also a recipe. I have developed this program in the React framwork of JavaScript",
+          code: "https://github.com/AOrifjonov/spa-practice-food-shop",
+          photo: "https://i.ibb.co/x8qpq6p/react-spa-shop.png",
+          link: "https://mykitchenuz.netlify.app/",
+        },
+        {
           title: "Weather app",
           text: "This project shows weather data from around the world. I have developed this program in the VueJs framwork of JavaScript",
           code: "https://github.com/AOrifjonov/weather-vuejs",
